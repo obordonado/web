@@ -1,7 +1,6 @@
 
 body{
     height: 90vh;
-    /* background-color: aquamarine; */
 }
 .logo{
   width: 9.4em;
@@ -34,7 +33,7 @@ color: #fff;
   box-shadow: 1px 1px 15px 1px #fff;
   transition: ease-in-out, .3s;
 }
-
+/* CONTENEDOR INFERIOR */
 .contenedor{
   display: flex;
   align-items: center;
@@ -47,18 +46,15 @@ color: #fff;
 .cont-left-top{
   width: 25em;
   height: 7em;
-  /* background-color: aqua; */
 }
 .cont-left-mid{
   width: 25em;
   height: 3.5em;
-  /* background-color: aqua; */
 }
 /* contenedor izquierdo datos de contacto */
 .contenedor-left{
   width: 25em;
   height: 65vh;
-  /* background-color: red; */
   margin-left: 2em;
   margin-right: 2em;
 }
@@ -70,7 +66,6 @@ h2{
 .email-box{
   width: 25em;
   height: 4em;
-  /* background-color: yellow; */
   display: flex;
   justify-content: left;
   align-items: center;
@@ -78,7 +73,6 @@ h2{
 .envelope{
   width: 2.5em;
   height: 2.5em;
-  /* background-color: yellowgreen; */
 }
 .envelope:active{
   width: 2.45em;
@@ -89,24 +83,20 @@ h2{
   width: 25em;
   height: 2.5em;
   padding: .5em;
-  /* background-color: violet; */
 }
 .phone{
   width: 2.5em;
   height: 2.5em;
-  /* background-color: yellowgreen; */
 }
 .location{
   width: 2.5em;
   height: 2.5em;
-  /* background-color: yellowgreen; */
 }
 
 /* contenedor superior empuja abajo a contenedor derecho */
 .cont-right-top{
   width: 45em;
   height: 7em;
-  /* background-color: aqua; */
 }
 /* CONTENEDOR FORMULARIO */
 .contenedor-right{
