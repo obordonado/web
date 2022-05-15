@@ -2,7 +2,6 @@
 body{
     height: 100vh;
     background-color: aquamarine;
-
 }
 .logo{
   width: 9.4em;
@@ -36,17 +35,73 @@ color: #fff;
   transition: ease-in-out, .3s;
 }
 
-.row-left{
-    width: 50vw;
-    height:20vh;
-    background-color:blue;
-
-}
-.row-right{
-    width: 50vw;
-    height:20vh;
-    background-color:blue;
+.contenedor{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+/* contenedor superior empuja abajo a contenedor izquierdo */
+.cont-left-top{
+  width: 25em;
+  height: 7em;
+  background-color: aqua;
+}
+/* contenedor izquierdo datos de contacto */
+.contenedor-left{
+  width: 25em;
+  height: 65vh;
+  background-color: red;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+/* DATOS DE CONTACTO */
+.email-box{
+  width: 25em;
+  height: 4em;
+  background-color: yellow;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.envelope{
+  width: 2.5em;
+  height: 2.5em;
+  background-color: yellowgreen;
+}
+.envelope:active{
+  width: 2.45em;
+  height: 2.45em;
+  border-radius: 1em;
+}
+.contact-text{
+  width: 25em;
+  height: 2.5em;
+  padding: .5em;
+  background-color: violet;
+}
+.phone{
+  width: 2.5em;
+  height: 2.5em;
+  background-color: yellowgreen;
+}
+.location{
+  width: 2.5em;
+  height: 2.5em;
+  background-color: yellowgreen;
+}
 
-
+/* contenedor superior empuja abajo a contenedor derecho */
+.cont-right-top{
+  width: 45em;
+  height: 7em;
+  background-color: aqua;
+}
+/* CONTENEDOR MAPA */
+.contenedor-right{
+  width: 25em;
+  height: 65vh;
+  background-color: brown;
+  margin-left: 2em;
+  margin-right: 2em;
+}
