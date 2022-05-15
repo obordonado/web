@@ -42,7 +42,11 @@ color: #fff;
   text-align: center;
 }
 .card-body{
-  background:linear-gradient(130deg,rgb(255,192,203), rgb(255,182,193),rgb(255,105,180));}
+  background:linear-gradient(130deg,rgb(255,192,203), rgb(255,182,193),rgb(255,105,180));
+}
+.card-text{
+  text-align: justify;
+}
 
 .helado{
   max-width: 15em;
