@@ -1,0 +1,52 @@
+
+body{
+    height: 100vh;
+    background-color: aquamarine;
+
+}
+.logo{
+  width: 9.4em;
+  height:9.4em;
+  border-radius: 50%;
+}
+.hovering:hover{
+color: #fff;
+}
+.navbar-text {
+  text-align: left;
+  padding-right: 1em;
+  letter-spacing: 0.3em;
+  font-weight: bolder;
+  font-size:1.5em;
+  color: rgb(242, 242, 8);
+  font-family: 'Freehand', cursive;
+}
+
+.navbar-toggler-icon{
+  box-shadow: 1px 1px 15px 1px #000000;
+}
+.icons{
+  width: 2em;
+  height: 2em;
+  margin-right: .2em;
+  border-radius: 100%;
+}
+.icons:hover{
+  box-shadow: 1px 1px 15px 1px #fff;
+  transition: ease-in-out, .3s;
+}
+
+.row-left{
+    width: 50vw;
+    height:20vh;
+    background-color:blue;
+
+}
+.row-right{
+    width: 50vw;
+    height:20vh;
+    background-color:blue;
+}
+
+
+
