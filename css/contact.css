@@ -1,6 +1,6 @@
 
 body{
-    height: 100vh;
+    height: 90vh;
     /* background-color: aquamarine; */
 }
 .logo{
@@ -39,6 +39,8 @@ color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #ddd;
+  flex-wrap: wrap;
 }
 
 /* contenedor superior empuja abajo a contenedor izquierdo */
@@ -110,17 +112,24 @@ h2{
 .contenedor-right{
   width: 25em;
   height: 65vh;
-  /* background-color: brown; */
+  background-color: #ddd;
   margin-left: 2em;
   margin-right: 2em;
 }
 input{
-text-decoration: none;
+border-style: none;
 margin-bottom: 1em;
 border-radius: 1em;
 }
-
+input:active{
+  border-style: none;
+}
 textarea{
   resize: none;
   border-radius: 1em;
+border-style: none;
+}
+.small-text-bottom{
+  font-size: x-small;
+  text-align: center;
 }
