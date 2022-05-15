@@ -1,0 +1,63 @@
+*{
+
+}
+
+body{
+  background-image: url(/img/backgroundOne.jpg);
+    height: 100vh;
+}
+.logo{
+  width: 11em;
+  height:11em;
+  border-radius: 50%;
+}
+.hovering:hover{
+color: #fff;
+}
+.navbar-text {
+  text-align: left;
+  padding-right: 1em;
+  letter-spacing: 0.3em;
+  font-weight: bolder;
+  font-size:1.5em;
+  color: rgb(242, 242, 8);
+  font-family: 'Freehand', cursive;
+}
+
+.navbar-toggler-icon{
+  box-shadow: 1px 1px 15px 1px #000000;
+}
+.icons{
+  width: 2em;
+  height: 2em;
+  margin-right: .2em;
+  border-radius: 100%;
+}
+.icons:hover{
+  box-shadow: 1px 1px 15px 1px #000000;
+  transition: ease-in-out, .3s;
+}
+
+.card-title{
+  text-align: center;
+}
+.card-body{
+  background:linear-gradient(130deg,rgb(255,192,203), rgb(255,182,193),rgb(255,105,180));}
+
+.card-img-top{
+  max-width: 15em;
+  max-height: 15em;
+}
+.gofre{
+  height: 15em;
+}
+
+
+
+
+.bottom{
+  text-align: center;
+}
+.small-text-bottom{
+  font-size: small;
+}
