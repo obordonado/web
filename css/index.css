@@ -12,8 +12,7 @@ body{
 color: #fff;
 }
 .navbar-text {
-  text-align: left;
-  padding-right: 1em;
+  margin-right: 8em;
   letter-spacing: 0.3em;
   font-weight: bolder;
   font-size:1.5em;
@@ -34,7 +33,9 @@ color: #fff;
   box-shadow: 1px 1px 15px 1px #fff;
   transition: ease-in-out, .3s;
 }
-
+.card{
+  margin-top: 3em;
+}
 .card-title{
   text-align: center;
 }
@@ -43,16 +44,18 @@ color: #fff;
 }
 .card-text{
   text-align: justify;
+  height: 8em;
 }
-
 .helado{
   max-width: 15em;
   max-height: 15em;
+  margin-left: 2em;
 }
-.gofre{
+.waffle{
   height: 15em;
 }
 .small-text-bottom{
+  margin-top: 3em;
   font-size: x-small;
   text-align: center;
 }
