@@ -1,6 +1,7 @@
 
 body{
-    height: 90vh;
+ 
+    background-color: #ddd; 
 }
 .logo{
   width: 9.4em;
@@ -107,9 +108,9 @@ h2{
   margin-right: 2em;
 }
 input{
-border-style: none;
-margin-bottom: 1em;
-border-radius: 1em;
+  border-style: none;
+  margin-bottom: 1em;
+  border-radius: 1em;
 }
 input:active{
   border-style: none;
@@ -117,7 +118,7 @@ input:active{
 textarea{
   resize: none;
   border-radius: 1em;
-border-style: none;
+  border-style: none;
 }
 .small-text-bottom{
   font-size: x-small;
