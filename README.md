@@ -56,13 +56,15 @@
 ---
 > <b>Responsive:</b>
 By clicking the top right button, the menu will show or hide itself.
+>
 
-<img src="./img/responsive.png" style="width:350px;"/>
+<img src="./img/responsive.png" style="width:250px;"/>
 
 
 
-<img src="./img/responsive-one.png" style="width:350px;"/>
+<img src="./img/responsive-one.png" style="width:250px;"/>
 <br><br>
+
 
 
 >### Thanks for visiting !!
