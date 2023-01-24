@@ -1,5 +1,4 @@
 <pre>
-<center><img src="./img/Geekshubs.png" style="width:400px;"/></center>
 
 <center><img src="./img/ubuntu-logo.png" style="width:260px;"/>         <img src="./img/css-html5.png" style="width:100px;"/></center>
 
